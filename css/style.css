@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(to left bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.784)), url(../img/swiss.jpg);
+  background-size: cover;
+  background-position: bottom; }
+
+.container {
+  background-color: #fff;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 50%;
+  padding: 2rem;
+  background: rgba(243, 243, 237, 0.8); }
+  .container .login-header {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center; }
+  .container .login-content {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column; }
+    .container .login-content input {
+      height: 2.5rem;
+      padding: 0 20px;
+      font-weight: 600;
+      text-transform: capitalize;
+      width: 100%;
+      border: 1px solid #e9dfdf;
+      margin-bottom: 1rem;
+      -o-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; }
+      .container .login-content input:hover {
+        box-shadow: 0 8px 8px -4px lightblue; }
+      .container .login-content input:focus {
+        outline: none; }
+  .container .login-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .container .login-footer a:first-child {
+      background: #7ed56f;
+      color: #fff;
+      padding: 0.5rem;
+      -o-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      width: 30%;
+      text-align: center;
+      font-weight: 700;
+      text-transform: capitalize; }
+      .container .login-footer a:first-child:active {
+        transform: scale(0.8);
+        transition: all .2s; }
+      .container .login-footer a:first-child:hover {
+        background: #fff;
+        color: #7ed56f;
+        transition: all 0.5s; }
+    .container .login-footer a:nth-child(2) {
+      color: #7ed56f;
+      font-weight: bold; }
+      .container .login-footer a:nth-child(2):hover {
+        transition: all 0.1s;
+        transform: translateY(-3px); }
+
+.signup {
+  margin-top: 1rem; }
+  .signup a {
+    font-weight: bold;
+    color: #fff; }
+  .signup:hover {
+    transition: all 0.1s;
+    transform: translateY(-3px); }
